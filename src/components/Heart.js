@@ -8,7 +8,7 @@ const Heart = (props) => {
       <div className="heart">
         <img className="heart-img" src={Heartlogo} alt="heart" />
         <p className="heart-message">{props.msg}</p>
-      </div>
+      </div>// The props above are coming from the HeartsList component
     );
   };
 

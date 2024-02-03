@@ -20,5 +20,21 @@ const messages = [
     'yank o way',
     'mage love',
     'oy',
-    'in a fan'
+    'im a fan',
+    'U rock',
+    'pounding heart',
+    'fluttering',
+    'I am yours'
 ];
+
+const HeartsList = () => {
+    return (
+        <div className='hearts-container'>
+            {messages.map((message, index) => (
+                <Heart key={index} msg={message}/>
+            ))}
+        </div>
+    );
+};
+
+export default HeartsList;
